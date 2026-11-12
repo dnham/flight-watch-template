@@ -147,6 +147,19 @@ class ConfigFormsTest(unittest.TestCase):
         self.assertEqual(fw.needed_origins(cfg, "LAS"), ["DSM", "DEN"])
         self.assertEqual(fw.needed_origins(cfg, "DEN"), ["DSM"])   # home exempt
 
+    def test_single_origin_works(self):
+        cfg = fw.normalize({"origins": ["DSM"], "max_price": 200,
+                            "destinations": {"Las Vegas": LAS, "Phoenix": PHX},
+                            "window_start": "2026-12-01",
+                            "window_end": "2027-03-31"})
+        api = Recorder(cfg)
+        hits = fw.search(cfg, api, TODAY)
+        self.assertEqual(api.calls, 2)               # one search per destination
+        self.assertEqual([(h["name"], h["start"]) for h in hits],
+                         [("Las Vegas", "2026-12-04"), ("Las Vegas", "2026-12-11"),
+                          ("Phoenix", "2026-12-04")])
+        self.assertEqual(fw.planned_searches(cfg), 2)
+
     def test_window_defaults_to_today_plus_one_search(self):
         cfg = fw.normalize({"origins": ["DSM"], "max_price": 200,
                             "destinations": ["LAS"]})

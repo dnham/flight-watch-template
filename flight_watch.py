@@ -173,7 +173,7 @@ def search(cfg, api, today):
     hits = []
     for name, did in cfg["destinations"].items():
         need = needed_origins(cfg, did)
-        if len(need) < 2:
+        if not need:
             continue
         for nights in cfg["trip_nights"]:
             last_out = end - dt.timedelta(days=nights)   # return within window
