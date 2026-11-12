@@ -1,0 +1,9 @@
+{
+  "origins": ["DSM", "SEA", "DEN", "LAX"],
+  "destinations": ["LAS", "PHX", "SAN", "AUS", "DEN", "LAX", "DSM", "SEA"],
+  "max_price": 250,
+  "trip_nights": [3],
+  "notify": {
+    "ntfy_topic": "CHANGE-ME-to-something-long-and-hard-to-guess"
+  }
+}

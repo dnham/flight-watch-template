@@ -1,0 +1,368 @@
+{
+ "cal|DSM|/m/0cv3w|3": {
+  "prices": [
+   {
+    "outbound_date": "2026-12-04",
+    "return_date": "2026-12-07",
+    "price": 148
+   },
+   {
+    "outbound_date": "2026-12-11",
+    "return_date": "2026-12-14",
+    "price": 150
+   },
+   {
+    "outbound_date": "2026-12-18",
+    "return_date": "2026-12-21",
+    "price": 300
+   },
+   {
+    "outbound_date": "2027-03-30",
+    "return_date": "2027-04-02",
+    "price": 120
+   }
+  ]
+ },
+ "cal|SEA|/m/0cv3w|3": {
+  "prices": [
+   {
+    "outbound_date": "2026-12-04",
+    "return_date": "2026-12-07",
+    "price": 117
+   },
+   {
+    "outbound_date": "2026-12-11",
+    "return_date": "2026-12-14",
+    "price": 120
+   },
+   {
+    "outbound_date": "2026-12-18",
+    "return_date": "2026-12-21",
+    "price": 90
+   },
+   {
+    "outbound_date": "2027-03-30",
+    "return_date": "2027-04-02",
+    "price": 120
+   }
+  ]
+ },
+ "cal|DEN|/m/0cv3w|3": {
+  "prices": [
+   {
+    "outbound_date": "2026-12-04",
+    "return_date": "2026-12-07",
+    "price": 89
+   },
+   {
+    "outbound_date": "2026-12-11",
+    "return_date": "2026-12-14",
+    "price": 250
+   },
+   {
+    "outbound_date": "2027-03-30",
+    "return_date": "2027-04-02",
+    "price": 80
+   }
+  ]
+ },
+ "cal|LAX|/m/0cv3w|3": {
+  "prices": [
+   {
+    "outbound_date": "2026-12-04",
+    "return_date": "2026-12-07",
+    "price": 55
+   },
+   {
+    "outbound_date": "2026-12-11",
+    "return_date": "2026-12-14",
+    "price": 60
+   },
+   {
+    "outbound_date": "2027-03-30",
+    "return_date": "2027-04-02",
+    "price": 60
+   }
+  ]
+ },
+ "cal|DSM|/m/02cl1|3": {
+  "prices": [
+   {
+    "outbound_date": "2027-01-15",
+    "return_date": "2027-01-18",
+    "price": 128
+   },
+   {
+    "outbound_date": "2027-01-22",
+    "return_date": "2027-01-25",
+    "price": 140
+   }
+  ]
+ },
+ "cal|SEA|/m/02cl1|3": {
+  "prices": [
+   {
+    "outbound_date": "2027-01-15",
+    "return_date": "2027-01-18",
+    "price": 157
+   },
+   {
+    "outbound_date": "2027-01-22",
+    "return_date": "2027-01-25",
+    "price": 150
+   }
+  ]
+ },
+ "cal|LAX|/m/02cl1|3": {
+  "prices": [
+   {
+    "outbound_date": "2027-01-15",
+    "return_date": "2027-01-18",
+    "price": 98
+   },
+   {
+    "outbound_date": "2027-01-22",
+    "return_date": "2027-01-25",
+    "price": 99
+   }
+  ]
+ },
+ "cal|DSM|/m/0d35y|3": {
+  "prices": [
+   {
+    "outbound_date": "2026-12-04",
+    "return_date": "2026-12-07",
+    "price": 177
+   }
+  ]
+ },
+ "cal|SEA|/m/0d35y|3": {
+  "prices": [
+   {
+    "outbound_date": "2026-12-04",
+    "return_date": "2026-12-07",
+    "price": 230
+   }
+  ]
+ },
+ "cal|DEN|/m/0d35y|3": {
+  "prices": [
+   {
+    "outbound_date": "2026-12-04",
+    "return_date": "2026-12-07",
+    "price": 50
+   }
+  ]
+ },
+ "cal|LAX|/m/0d35y|3": {
+  "prices": [
+   {
+    "outbound_date": "2026-12-04",
+    "return_date": "2026-12-07",
+    "price": 50
+   }
+  ]
+ },
+ "detail|DSM|/m/0cv3w|2026-12-04": {
+  "best_flights": [
+   {
+    "price": 148,
+    "flights": [
+     {
+      "airline": "Allegiant",
+      "arrival_airport": {
+       "id": "LAS"
+      }
+     }
+    ]
+   }
+  ],
+  "other_flights": [
+   {
+    "price": 238,
+    "flights": [
+     {
+      "airline": "Other Air",
+      "arrival_airport": {
+       "id": "LAS"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "detail|SEA|/m/0cv3w|2026-12-04": {
+  "best_flights": [
+   {
+    "price": 117,
+    "flights": [
+     {
+      "airline": "Alaska",
+      "arrival_airport": {
+       "id": "LAS"
+      }
+     }
+    ]
+   }
+  ],
+  "other_flights": [
+   {
+    "price": 207,
+    "flights": [
+     {
+      "airline": "Other Air",
+      "arrival_airport": {
+       "id": "LAS"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "detail|DEN|/m/0cv3w|2026-12-04": {
+  "best_flights": [
+   {
+    "price": 89,
+    "flights": [
+     {
+      "airline": "Frontier",
+      "arrival_airport": {
+       "id": "LAS"
+      }
+     }
+    ]
+   }
+  ],
+  "other_flights": [
+   {
+    "price": 179,
+    "flights": [
+     {
+      "airline": "Other Air",
+      "arrival_airport": {
+       "id": "LAS"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "detail|LAX|/m/0cv3w|2026-12-04": {
+  "best_flights": [
+   {
+    "price": 55,
+    "flights": [
+     {
+      "airline": "Spirit",
+      "arrival_airport": {
+       "id": "LAS"
+      }
+     }
+    ]
+   }
+  ],
+  "other_flights": [
+   {
+    "price": 145,
+    "flights": [
+     {
+      "airline": "Other Air",
+      "arrival_airport": {
+       "id": "LAS"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "detail|DSM|/m/02cl1|2027-01-15": {
+  "best_flights": [
+   {
+    "price": 128,
+    "flights": [
+     {
+      "airline": "Frontier",
+      "arrival_airport": {
+       "id": "DEN"
+      }
+     }
+    ]
+   }
+  ],
+  "other_flights": [
+   {
+    "price": 218,
+    "flights": [
+     {
+      "airline": "Other Air",
+      "arrival_airport": {
+       "id": "DEN"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "detail|SEA|/m/02cl1|2027-01-15": {
+  "best_flights": [
+   {
+    "price": 157,
+    "flights": [
+     {
+      "airline": "Delta",
+      "arrival_airport": {
+       "id": "DEN"
+      }
+     },
+     {
+      "airline": "Delta",
+      "arrival_airport": {
+       "id": "DEN"
+      }
+     }
+    ]
+   }
+  ],
+  "other_flights": [
+   {
+    "price": 247,
+    "flights": [
+     {
+      "airline": "Other Air",
+      "arrival_airport": {
+       "id": "DEN"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "detail|LAX|/m/02cl1|2027-01-15": {
+  "best_flights": [
+   {
+    "price": 98,
+    "flights": [
+     {
+      "airline": "United",
+      "arrival_airport": {
+       "id": "DEN"
+      }
+     }
+    ]
+   }
+  ],
+  "other_flights": [
+   {
+    "price": 188,
+    "flights": [
+     {
+      "airline": "Other Air",
+      "arrival_airport": {
+       "id": "DEN"
+      }
+     }
+    ]
+   }
+  ]
+ }
+}
