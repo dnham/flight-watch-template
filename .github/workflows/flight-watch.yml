@@ -2,8 +2,9 @@ name: Flight Watch
 
 on:
   schedule:
-    # Tuesdays and Fridays at 14:00 UTC. Times are UTC; GitHub may start late.
-    - cron: "0 14 * * 2,5"
+    # Tuesdays and Fridays at 13:23 UTC. Times are UTC. Deliberately not on
+    # the hour: GitHub delays or drops scheduled runs at busy times like :00.
+    - cron: "23 13 * * 2,5"
   workflow_dispatch:
     inputs:
       no_notify:
